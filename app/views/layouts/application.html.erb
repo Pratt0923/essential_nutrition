@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Essential Nutrition</title>
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+  <body>
+    <nav>
+      <ul>
+          <li class="nav-link"><a href="/">Essential Nutrition</a></li>
+          <li class="nav-link"><a href="/aboutus">About Us</a></li>
+          <li class="nav-link"><a href="/services">Services</a></li>
+          <li class="nav-link"><a href="/recommendations">Recommendations</a></li>
+          <li class="nav-link"><a href="/contactus">Directions</a></li>
+          <li class="nav-link"><a href="/nutritiontips">Nutrition Tips</a></li>
+          <li class="nav-link"><a href="/recipes">Recipes</a></li>
+          <li class="nav-link"><a href="/wellnesscoaching">Wellness Coaching</a></li>
+      </ul>
+    </nav>
+
+    <%= yield %>
+  </body>
+  <!-- <div class="wrapper-for-content-outside-of-footer">
+     Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer
+  </div> -->
+
+
+
+</html>

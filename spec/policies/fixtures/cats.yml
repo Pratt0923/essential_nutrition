@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+bubbles:
+  id: 1
+  name: bubbles
+  description: this is a cat
+  breed: tabby
+  age: 23
+  price: "200.00"
+  created_at: Fri, 08 Jul 2016 12:58:26 UTC +00:00
+  updated_at: Fri, 08 Jul 2016 12:58:26 UTC +00:00
+
+fred:
+  id: 2
+  name: fred
+  description: this is another cat
+  breed: shorthair
+  age: 12
+  price: "100.00"
+  created_at: Fri, 08 Jul 2016 12:58:26 UTC +00:00
+  updated_at: Fri, 08 Jul 2016 12:58:26 UTC +00:00
