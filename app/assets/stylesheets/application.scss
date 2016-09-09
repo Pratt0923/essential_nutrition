@@ -61,6 +61,7 @@ ul li a:hover{
   text-shadow:0px 1px 1px #fff
 }
 p {
+  font-weight:normal;
   font-size: 12px;
 }
 #all-div{
@@ -83,6 +84,23 @@ p {
   background:#f3f8ed;
   height:100%;
   padding-top:100px
+}
+
+.col1 {
+  width: 50%;
+  float: left;
+  p {
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 3em;
+    margin-left:8em;
+    margin-right: 8em;
+  }
+}
+.col2 {
+  width: 50%;
+  float: right;
+
 }
 #link2{
   color:#1b250e;
