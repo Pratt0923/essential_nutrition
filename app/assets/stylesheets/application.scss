@@ -10,7 +10,6 @@
   padding:0
 }
 body {
-  color:#FFF;
   background:#222;
   margin:0;
   padding:0;
@@ -22,7 +21,7 @@ body {
 span.logo {
   position:fixed;
   z-index:99999;
-  margin:25px 0 0 35px;
+  margin:10px 0 0 35px;
   font-size:19px;
   font-weight:bold;
   color:#E8F873
@@ -38,7 +37,7 @@ ul {
   height:73px;
   position:fixed;
   width:100%;
-  background:rgba(207,65,65,0.25);
+  background:rgba(0,0,0,0.25);
   top:0;left:0;z-index:1
 }
 ul li {
@@ -49,7 +48,7 @@ ul li a {
   text-decoration:none;
   color:#123;
   display:block;
-  padding:27px 35px;
+  padding:27px 30px;
   -webkit-transition:all 0.5s ease;
   -moz-transition:all 0.5s ease;
   -o-transition:all 0.5s ease;
@@ -80,42 +79,50 @@ p {
   font-size:16px
 }
 #link1 {
-  background:#008080;
+  color:#1b250e;
+  background:#f3f8ed;
   height:100%;
   padding-top:100px
 }
 #link2{
-  background:#60F;
+  color:#1b250e;
+  background:#e7f1da;
   height:100%;
   padding-top:100px
 }
 #link3{
-  background:#990;
+  color:#1b250e;
+  background:#dbeac8;
   height:100%;
   padding-top:100px
 }
 #link4{
-  background:#E100C8;
+  color:#1b250e;
+  background:#cfe3b5;
   height:100%;
   padding-top:100px
 }
 #link5{
-  background:#936;
+  color:#1b250e;
+  background:#c3dca3;
   height:100%;
   padding-top:100px
 }
 #link6{
-  background:#234;
+  color:#1b250e;
+  background:#b7d590;
   height:100%;
   padding-top:100px
 }
 #link7{
-  background:#847;
+  color:#1b250e;
+  background:#abce7e;
   height:100%;
   padding-top:100px
 }
 #link8{
-  background:#345;
+  color: #1b250e;
+  background:#9fc76b;
   height:100%;
   padding-top:100px
 }
