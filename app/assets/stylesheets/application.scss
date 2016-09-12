@@ -209,7 +209,7 @@ img {
 
 
 .card {
-  background-color:white;
+  background-color: #f5f0f1;
   color: black;
   border-radius:5px;
   border:1px solid #472d33;
@@ -226,4 +226,14 @@ img {
 }
 .card > div {
   padding:0 1em;
+}
+
+.nutritiontips {
+  margin-left: 6em;
+  margin-right: 6em;
+  img {
+    height: 200px;
+    width:250px;
+
+  }
 }
