@@ -1,6 +1,15 @@
-$(document).ready(function(){$("ul li > a").click(function(){$("ul li > a").removeAttr("class");$(this).addClass("home")});$("ul li a").click(function(){var e=$(this.hash);$("body,html").animate({scrollTop:e.offset().top},700);return false});$(window).scroll(function(){if($(this).scrollTop()>500){$(".top").fadeIn()}else{$(".top").fadeOut()}});$(".top").click(function(){$("body,html").animate({scrollTop:0},500);return false})})
-/*
-	* Design by : Mahmoud Abd Alkarim ^_^
-	* Twitter   : AbdAlkarimTweet
-	* Contact   : AbdAlkarim.mail@gmail.com
-*/
+(function() {
+
+  var buttons = document.getElementsByTagName('button'),
+    buttonClick = function(e) {
+      var eventTarget = e.target,
+        	classData = eventTarget.getAttribute("data-body-class");
+
+      document.body.className = classData;
+    };
+
+  for (var i = 0, len = buttons.length; i < len; i++) {
+    buttons[i].addEventListener("click", buttonClick, false);
+  }
+
+}());

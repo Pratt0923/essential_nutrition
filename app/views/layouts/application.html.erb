@@ -8,6 +8,16 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
   <body>
+    <header>
+      <h1 class="logo"><a href="/">Essential Nutrition</a></h1>
+      <nav>
+        <ul class="nav-bar">
+          <li><a href="aboutus">About</a></li>
+          <li><a href="services">Services</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <%= yield %>
   </body>
