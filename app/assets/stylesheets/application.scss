@@ -229,11 +229,8 @@ img {
 }
 
 .nutritiontips {
-  margin-left: 6em;
-  margin-right: 6em;
-  img {
-    height: 200px;
-    width:250px;
-
+  .paragraph {
+    width: 200px;
   }
+  display: block;
 }
