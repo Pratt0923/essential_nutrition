@@ -211,7 +211,6 @@ nav {
     max-width: 100%;
   }
 }
-
 // end about us ----------------------------========--------------------------- end about us
 
 //services ------------     -----------------         --------------------------- services
@@ -235,6 +234,7 @@ nav {
   max-width: 100%;
 }
 //services end =====-----------------------===========------------------------====== services end
+
 //recommendations -------=============--------------------========---------------- recommendations
 .card {
     transition: 0.3s;
@@ -265,5 +265,34 @@ nav {
 }
 
 .recommendations {
+  margin-top: 2em;
+}
+// end recommendations ===-------=======--------========-------=======---------- end recommendations
+
+//nutrition tips -------------------------------------------------------------- nutritiontips
+
+.card-nutrition {
+    transition: 0.3s;
+    width: 31%;
+    border-radius: 5px;float:left;margin-right:10px;
+    margin-bottom:30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container-nutrition {
+    padding: 2px 16px;
+    background: green;
+}
+@media screen and (max-width:500px){
+.card-nutrition {width:100%;margin-bottom:20px;}
+}
+
+.nutritiontips {
   margin-top: 2em;
 }
