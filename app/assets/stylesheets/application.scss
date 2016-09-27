@@ -1,5 +1,5 @@
 /* Base Styles */
-
+// nav bar --------------           --------------------- nav bar
 body {
   padding: 0;
   margin: 0;
@@ -16,6 +16,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 /* Themes */
 
 .perl {
@@ -163,153 +164,67 @@ nav {
     font-size: .7em;
   }
 }
+// end nav bar ------------------====================----------------------end nav bar
 
-
-
-
-
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-img {
-  max-width:100%;
-}
-
-
-
-.card-grid {
-  width:100%;
-}
-.card-grid:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-
-.card-wrap {
+//about us      ---------------------------------------------------  about us
+.container
+{
   text-align: center;
-  float:left;
-  display: block;
-  width:100%;
-  padding:5px;
+  padding: 15px;
 }
-@media (min-width: 500px) {
-  .card-wrap {
-    width:50%;
-  }
+.left-div
+{
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+  padding: 30px;
+  background-color: #f3f3f3;
+  border-radius: 3px;
+  margin: 15px;
+  vertical-align: top;
 }
-@media (min-width: 720px) {
-  .card-wrap {
-    width:25%;
-  }
+.right-div
+{
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 15px;
 }
-
-.card {
-  font-family: 'Roboto', sans-serif;
-  background-color: #d2d9a6;
-  color: black;
-  border-radius:5px;
-  border:1px solid #d2d9a6;
-  text-align: center;
-  h4 {
-    text-align: center;
-  }
-  p {
-    text-align: justify;
-  }
-  .rec {
-    height: 300px;
-  }
+.left-text, .right-text
+{
+  font: 300 16px/1.6 'Helvetica Neue' sans-serif;
+	color: #333;
 }
-.card > div {
-  padding:0 1em;
-}
-
-
-//nutritiontips
-
-article img{
-  float: left;
-  max-width: 20%;
-   }
-
-.group:after {
-	content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-//services
-
-// @import "compass/css3";
-
-// Make sure you have this in your styles
-// because grid is using paddings
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-// This is mixin which you will include in parent
-// of columns. It kills default margin of inline-block
-// elements.
-@mixin row () {
-  font-size: 0;
-}
-
-// This is column mixins.
-@mixin col ($col, $sum, $gap: 1em, $align: top, $first: false, $last: false) {
-    width: 100%;
-    display: inline-block;
-    font-size: 16px;
-    padding-left: if($first, 0, $gap);
-    padding-right: if($last, 0, $gap);
-
-    @media only screen and (min-width: 768px) {
-            width: percentage($col/$sum);
-            vertical-align: $align;
+@media screen and (max-width: 600px)
+{
+  .left-div, .right-div
+    {
+       max-width: 100%;
     }
-
-    &.fluid { width: percentage($col/$sum); }
 }
 
-h2 { margin-top: 0; }
+// end about us ----------------------------========--------------------------- end about us
 
-.features, .products, .compare {
-  @include row;
-  margin-bottom: 50px;
+//services ------------     -----------------         --------------------------- services
+.services {
+  height: 250px;
 }
 
-.features article {
-  @include col(1, 3);
-}
-
-.products article {
-  background: #eee;
-  @include col(1, 3, $align: middle);
-}
-
-.compare article {
-  @include col(1, 2);
-}
-
-.paddingleft {
-  background-color: #d2d9a6;
+.bottom-div {
+  display: inline-block;
+  max-width: 800px;
+  text-align: left;
+  padding: 30px;
   color: black;
-  border-radius:5px;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  p { font-family: 'Roboto', sans-serif;}
-  img {
-    text-align: center;
-  }
+  background-color: #f3f3f3;
+  border-radius: 3px;
+  margin: 15px;
+  vertical-align: top;
+}
+
+.bottom-div {
+  max-width: 100%;
 }
