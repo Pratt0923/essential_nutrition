@@ -202,14 +202,14 @@ nav {
 .left-text, .right-text
 {
   font: 300 16px/1.6 'Helvetica Neue' sans-serif;
-	color: #333;
+  color: #333;
 }
 @media screen and (max-width: 600px)
 {
   .left-div, .right-div
-    {
-       max-width: 100%;
-    }
+  {
+    max-width: 100%;
+  }
 }
 
 // end about us ----------------------------========--------------------------- end about us
@@ -233,4 +233,37 @@ nav {
 
 .bottom-div {
   max-width: 100%;
+}
+//services end =====-----------------------===========------------------------====== services end
+//recommendations -------=============--------------------========---------------- recommendations
+.card {
+    transition: 0.3s;
+    width: 31%;
+    border-radius: 5px;
+    float:left;
+    background-color: green;
+    margin-right:5px;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom:30px;
+    height: 300px;
+
+    h4 {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:500px){
+.card {width:100%;margin-bottom:20px;}
+}
+
+.recommendations {
+  margin-top: 2em;
 }
