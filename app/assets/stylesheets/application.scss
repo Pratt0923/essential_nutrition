@@ -287,8 +287,22 @@ img {
 
 .container-nutrition {
     padding: 2px 16px;
-    background: green;
 }
+
+.color-nutrition {
+  background: green;
+}
+
+.color-recipies {
+  background: blue;
+  height: 40em;
+}
+
+.color-wellness {
+  background: black;
+  height: 40em;
+}
+
 @media screen and (max-width:500px){
 .card-nutrition {width:100%;margin-bottom:20px;}
 }
@@ -296,3 +310,5 @@ img {
 .nutritiontips {
   margin-top: 2em;
 }
+
+//nutritiontips end
