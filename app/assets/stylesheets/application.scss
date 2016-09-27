@@ -93,7 +93,7 @@ nav {
 
 .container {
   max-width: 85%;
-  margin: 4em auto 0 auto;
+  margin: 1em auto 0 auto;
   padding: .625em .625em 2em .625em;
   text-align: center;
 }
@@ -182,9 +182,9 @@ nav {
 {
   display: inline-block;
   max-width: 400px;
-  text-align: left;
+  text-align: justify;
   padding: 30px;
-  background-color: #f3f3f3;
+  background-color: #dedda1;
   border-radius: 3px;
   margin: 15px;
   vertical-align: top;
@@ -193,9 +193,9 @@ nav {
 {
   display: inline-block;
   max-width: 400px;
-  text-align: left;
+  text-align: justify;
   padding: 30px;
-  background-color: #ddd;
+  background-color: #dedda1;
   border-radius: 3px;
   margin: 15px;
 }
@@ -241,7 +241,7 @@ nav {
     width: 31%;
     border-radius: 5px;
     float:left;
-    background-color: green;
+    background-color: #dedda1;
     margin-right:5px;
     margin-left: 5px;
     padding-left: 10px;
@@ -252,11 +252,13 @@ nav {
     h4 {
       margin-left: 10px;
       margin-right: 10px;
+      color: #281c1f;
     }
 
     p {
       margin-left: 10px;
       margin-right: 10px;
+      color: #281c1f;
     }
 }
 
@@ -274,7 +276,9 @@ nav {
 .card-nutrition {
     transition: 0.3s;
     width: 31%;
-    border-radius: 5px;float:left;margin-right:10px;
+    border-radius: 5px;
+    float:left;
+    margin-right:10px;
     margin-bottom:30px;
     padding-left: 10px;
     padding-right: 10px;
@@ -290,16 +294,19 @@ img {
 }
 
 .color-nutrition {
-  background: green;
+  background: #ffff99;
+  color: #281c1f;
 }
 
 .color-recipies {
-  background: blue;
+  background: #f0f0f0;
+  color: #281c1f;
   height: 40em;
 }
 
 .color-wellness {
-  background: black;
+  background: #dedda1;
+  color: #281c1f;
   height: 40em;
 }
 
