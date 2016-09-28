@@ -108,8 +108,8 @@ header {
   max-width: 100%;
   height: 80px;
   padding: 5px;
-  background: #382428;
-  opacity: 0.8;
+  background: rgba(40, 28, 31, 0.8);
+  // opacity: 0.8;
 }
 
 .logo {
@@ -234,7 +234,7 @@ nav {
 
 //about us      ---------------------------------------------------  about us
 .kays-img {
-  box-shadow: 7px 7px 5px -6px rgba(0,0,0,0.69);
+  box-shadow: 7px 7px 5px -6px rgba(0,0,0,0.4);
   border-radius: 50%;
   height: 300px;
   display:block;
@@ -243,7 +243,7 @@ nav {
 }
 
 .loris-img {
-  box-shadow: 7px 7px 5px -6px rgba(0,0,0,0.69);
+  box-shadow: 7px 7px 5px -6px rgba(0,0,0,0.4);
   border-radius: 50%;
   display:block;
   margin:auto;
@@ -264,9 +264,11 @@ nav {
   border-radius: 3px;
   margin: 15px;
   vertical-align: top;
+  height: 36em;
 }
 .right-div
 {
+  height: 36em;
   display: inline-block;
   max-width: 400px;
   text-align: justify;
@@ -284,6 +286,7 @@ nav {
 {
   .left-div, .right-div
   {
+    height: auto;
     max-width: 100%;
   }
 }
@@ -296,7 +299,7 @@ nav {
 
 .bottom-div {
   display: inline-block;
-  max-width: 800px;
+  width: 56em;
   text-align: left;
   padding: 30px;
   color: black;
@@ -308,6 +311,16 @@ nav {
 
 .bottom-div {
   max-width: 100%;
+}
+@media screen and (max-width: 600px)
+{
+  .services {
+    height: auto;
+  }
+  .bottom-div {
+    height: auto;
+    width: auto;
+  }
 }
 //services end =====-----------------------===========------------------------====== services end
 
@@ -339,7 +352,10 @@ nav {
 }
 
 @media screen and (max-width:500px){
-.card {width:100%;margin-bottom:20px;}
+.card {
+  width:auto;
+  height: auto;
+  margin-bottom:20px;}
 }
 
 .recommendations {
@@ -382,7 +398,10 @@ nav {
 }
 
 @media screen and (max-width:500px){
-.card-nutrition {width:100%;margin-bottom:20px;}
+.card-nutrition {
+  width:auto;
+  height: auto;
+  margin-bottom:20px;}
 }
 
 .nutritiontips {
