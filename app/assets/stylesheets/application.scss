@@ -339,15 +339,17 @@ nav {
 //nutritiontips end
 // MAP =====----------====================--------------========== MAP -----------
 
-.allmap {
-  width: 600px
-}
+// .allmap {
+//   width: 600px
+// }
 #map {
-  width: 300px;
-  height: 400px;
+  width: 60vw;
+  height: 87vh;
   float: left;
 }
 #panel {
-  width: 300px;
+  background-color: #f3f3f3;
+  width: 40vw;
+  height: 87vh;
   float: right;
 }

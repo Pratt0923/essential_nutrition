@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
   <script type="text/javascript"
-  src="http://maps.google.com/maps/api/js?key=AIzaSyAJh1HtXl2x_IC54PoCH4qKYwhsxKNkAhs&sensor=false"></script>
+  src="http://maps.google.com/maps/api/js?key=AIzaSyAJh1HtXl2x_IC54PoCH4qKYwhsxKNkAhs"></script>
 </head>
 <body>
   <div class="allmap">
@@ -33,7 +33,7 @@
 
       var request = {
         origin: {lat: pos.lat, lng: pos.lng},
-        destination: 'New York',
+        destination: '1706-1716 Dobbins Drive, Chapel Hill, NC 27514',
         travelMode: google.maps.DirectionsTravelMode.DRIVING
       };
       directionsService.route(request, function(response, status) {
