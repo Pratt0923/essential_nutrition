@@ -3,11 +3,11 @@
 <head>
   <title>Essential Nutrition</title>
   <%= csrf_meta_tags %>
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
-  <body>
+<body class="background-img">
     <header>
       <h1 class="logo"><a href="/">Essential Nutrition</a></h1>
       <nav>
@@ -17,12 +17,10 @@
           <li><a href="recommendations">Recommendations</a></li>
           <li><a href="contactus">Directione</a></li>
           <li><a href="nutritiontips">Tips and Recipes!</a></li>
-          <!-- <li><a href="recipes">Recipes</a></li>
-          <li><a href="wellnesscoaching">Wellness Coaching</a></li> -->
         </ul>
       </nav>
     </header>
 
     <%= yield %>
-  </body>
+</body>
 </html>

@@ -1,3 +1,47 @@
+// home page -----------------------------------------------------------------------
+
+.background-img {
+  background-image: url("http://i.imgur.com/VehrOpQ.jpg");
+  background-attachment: fixed;
+  background-color:transparent;
+  width: 100vw;
+  height: 100vh;
+}
+
+.greenbox {
+  background-color: #dedda1;
+  color: #382428;
+  border-radius: 5px;
+  text-align: justify;
+  margin: auto;
+  position: absolute;
+  height: 22em;
+  margin-left: 15em;
+  margin-right: 15em;
+  top: 0; left: 0; bottom: 0; right: 0;
+  p {
+    padding: 2em;
+  }
+}
+
+.opacity {
+  opacity: 0.9;
+}
+
+@media screen and (max-width:500px){
+  .background-img {
+    background-image: url("");
+  }
+.greenbox {
+  margin: auto;
+  margin-left: 0em;
+  margin-right: 0em;
+  p {
+    background-color: #dedda1;
+    padding: 2em;
+  }
+}}
+// end home page ============================================================== end home page
 //map
 #map {
   width: 100%;
@@ -65,6 +109,7 @@ header {
   height: 80px;
   padding: 5px;
   background: #382428;
+  opacity: 0.8;
 }
 
 .logo {
@@ -147,11 +192,19 @@ nav {
 }
 
 @media only screen and (max-width: 630px) {
+
+  .nav-bar ul {
+    margin: 0px;
+  }
   .nav-bar li {
-    padding: 30px 5px;
+    color: black;
+    padding: 30px 0px;
   }
   .nav-bar a {
-    padding: 0;
+    padding: 5px;
+  }
+  .nav-bar a:hover {
+    background-color: #dedda1;
   }
   .container {
     margin-top: 1.25em;
