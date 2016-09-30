@@ -5,33 +5,8 @@
   display: block;
 }
 
-.btn {
-  transition: background-color .15s ease, box-shadow .15s ease, color .15s ease;
-}
-
 .btn-green {
   background: #1ED760;
-
-  &:hover {
-    background: #3CEB7A;
-  }
-
-  &:focus {
-    box-shadow: 0 0 0 2px #0FA947 inset;
-  }
-
-  &:active,
-  &:focus,
-  &.active {
-    &:focus {
-      color: white;
-      background: #12C753;
-    }
-  }
-
-  &:active:focus {
-    box-shadow: none;
-  }
 }
 
 .btn-sm {
@@ -49,9 +24,14 @@
 }
 
 .btn-responsive {
-  .btn-sm;
-
-  @media(min-width: 768px) {
-    .btn-lg;
+  font-size: 14px;
+  padding: 14px 27px 13px;
+  min-width: 160px;
+  line-height: 1.5;
+}
+@media(max-width: 500px) {
+  .btn-responsive {
+  width: 100%;
+  line-height: 1.5;
   }
 }
