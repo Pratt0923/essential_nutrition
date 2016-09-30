@@ -1,5 +1,28 @@
-// home page -----------------------------------------------------------------------
+// images--------------------------------------------------------------------------
+.general {
+  width: 356px;
+  height:456px;
+  margin: auto;
+}
+.teen {
+  width: 356px;
+  height:456px;
+  margin: auto;
+}
+.pediatric {
+  width: 356px;
+  height:456px;
+  margin: auto;
+}
 
+
+//modal =============================================================================
+
+
+//end modal ====================================================================
+// end images
+
+// home page -----------------------------------------------------------------------
 .background-img {
   background-image: url("http://i.imgur.com/VehrOpQ.jpg");
   background-attachment: fixed;
@@ -14,8 +37,8 @@
   border-radius: 5px;
   text-align: justify;
   margin: auto;
-  position: absolute;
-  height: 22em;
+  margin-top: 5em;
+  height: auto;
   margin-left: 15em;
   margin-right: 15em;
   top: 0; left: 0; bottom: 0; right: 0;
@@ -38,6 +61,7 @@
   }
 .greenbox {
   margin: auto;
+  margin-top: 6em;
   margin-left: 0em;
   margin-right: 0em;
   p {
@@ -418,13 +442,21 @@ nav {
 
 #map {
   width: 60vw;
-  height: 87vh;
+  height: 89vh;
   float: left;
 }
 #panel {
   background-color: #f3f3f3;
   width: 40vw;
-  height: 87vh;
+  height: 89vh;
   float: right;
+}
+@media screen and (max-width:500px){
+#map {
+  height: auto;
+  }
+  #panel {
+    height: auto;
+  }
 }
 //end map --------===================------------===============------------- end map
