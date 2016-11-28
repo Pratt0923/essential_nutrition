@@ -51,7 +51,7 @@
   opacity: 0.9;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
   .background-img {
     background-image: url("http://i.imgur.com/VehrOpQ.jpg");
     background-attachment: fixed;
@@ -213,6 +213,16 @@ nav {
   background: #ae3c58;
 }
 /* Media Queries */
+@media only screen and (max-width: 1000px) {
+  a {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  a {
+    font-size: 15px;
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .button {
@@ -243,7 +253,7 @@ nav {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .main-heading {
     font-size: 2.25em;
   }
@@ -316,8 +326,14 @@ nav {
 }
 @media screen and (max-width: 600px)
 {
-  .left-div, .right-div
+  .container {
+    margin: 0 0 0 0;
+    max-width: 100%;
+    padding: 0 0 0 0;
+  }
+  .left-div, .right-div, .bottom-div
   {
+    margin: 5px;
     height: auto;
     max-width: 100%;
   }
@@ -383,7 +399,7 @@ nav {
     }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
 .card {
   width:auto;
   height: auto;
@@ -429,7 +445,7 @@ nav {
   height: 40em;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width: 600px){
 .card-nutrition {
   width:auto;
   height: auto;
